@@ -6,6 +6,17 @@
     font-family: 'Muli', sans-serif;
     font-size: 18px;
 }
+html
+{
+    scroll-behavior: smooth;
+}
+
+#addButton
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 5px 5px 5px rgb(112, 110, 110);
+}
 #myModal input,button
 {
     font-size: 15px;
@@ -17,19 +28,70 @@ i
 }
 i:hover
 {
+    font-size: 20px;
     cursor: pointer;
     transform: translateY(-3px);
 }
 
 button:hover
 {
-    transform: scale(.97);
+    transform: scale(.95);
     
 }
 thead
 {
     color: whitesmoke;
 }
+
+#mybtn
+{
+   color: white;
+   background:  rgb(63, 83, 94);
+   font-size: 20px;
+   padding: 5px;
+   border-radius: 5px;
+   position: fixed;
+   border: none;
+   outline: none;
+   display: none;
+   cursor: pointer;
+   bottom: 34px;
+   right: 25px;
+   
+}
+#mybtn:hover
+{
+    background: black;
+    transform: scale(.98);
+    text-decoration: none;
+}
+
+#foot
+{
+    position: fixed;
+    bottom: -3%;
+    color: #3a384d !important;   
+    text-align: center;
+    background: #dedeee;
+    width: 100%;
+}
+
+#foot span
+{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#foot a
+{
+    font-family: 'Great Vibes', cursive;
+}
+#foot a:hover
+{
+    text-decoration: none;
+}
+
 
 @media (max-width:600px)
 {
@@ -41,4 +103,9 @@ thead
     {
         padding: 50px;
     }
+    i:hover
+{
+    font-size: 17px;
+    transform: translateY(-2px);
+}
 }
