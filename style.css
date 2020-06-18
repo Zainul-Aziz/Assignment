@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+}
+#myModal input,button
+{
+    font-size: 15px;
+}
+
+i
+{
+    font-size: 15px;
+}
+i:hover
+{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+button:hover
+{
+    transform: scale(.97);
+    
+}
+thead
+{
+    color: whitesmoke;
+}
+
+@media (max-width:600px)
+{
+    *
+    {
+        font-size: 14px;
+    }
+    #myModal
+    {
+        padding: 50px;
+    }
+}
